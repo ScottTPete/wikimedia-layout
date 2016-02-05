@@ -1,1 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+}
+.header {
+	width: 70%;
+	height: 20%;
+	font-size: 22px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	position: relative;
+	padding-top: 15px;
+	text-align: justify;
+    vertical-align: top;
+}
+.bold {
+	font-weight: 700;
+}
+.bot {
+	position: absolute;
+	right: 0;
+}
+a {
+	text-decoration: none;
+	color: #0645AD;
+}
+a:hover {
+	text-decoration: underline;
+}
+.content-container {
+	width: 70%;
+	margin: 20px auto;
+}
+.rows {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.otherprojects {
+	height: 100%;
+}
+.otherprojects img {
+	height: 130px;
+	width:  135px;
+}
+.icon {
+	width: 135px;
+	height
+}
+#line {
+	border-bottom: 1px solid #AAAAAA;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 
+}
+.footer {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.footnote {
+	font-family: sans-serif;
+}
+.footnote-links {
+	display: flex;
+	justify-content: center;
+}
+.terms {
+	margin-right: 15px;
+}
